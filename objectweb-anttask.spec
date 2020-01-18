@@ -37,7 +37,7 @@
 Summary:        ObjectWeb Ant task
 Name:           objectweb-anttask
 Version:        1.3.2
-Release:        10%{?dist}
+Release:        9%{?dist}
 Epoch:          0
 Group:          Development/Tools
 License:        LGPLv2+
@@ -102,9 +102,6 @@ echo "%{name}" > $RPM_BUILD_ROOT%{_sysconfdir}/ant.d/%{name}
 %doc %{_javadocdir}/%{name}
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.3.2-10
-- Mass rebuild 2013-12-27
-
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:1.3.2-9
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
